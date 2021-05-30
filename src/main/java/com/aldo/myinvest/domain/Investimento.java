@@ -21,6 +21,9 @@ public class Investimento {
 	private Integer quantidadeCotas;
 	private LocalDate dataCompra;
 	
+	public Investimento() {
+		// TODO Auto-generated constructor stub
+	}
 	
 	public Investimento(Long codigo, String valor, Double valorCota, Integer quantidadeCotas, LocalDate dataCompra,
 			Categoria categoria) {
