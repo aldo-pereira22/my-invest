@@ -17,6 +17,17 @@ public class Categoria {
 	private String descricao;
 	
 	
+	public Categoria(Long codigo, String nome, String descricao) {
+		super();
+		this.codigo = codigo;
+		this.nome = nome;
+		this.descricao = descricao;
+	}
+
+	public Categoria() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public Long getCodigo() {
 		return codigo;
 	}
